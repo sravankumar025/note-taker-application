@@ -1,0 +1,42 @@
+nav{
+    background-color: rgb(56, 54, 54);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 855px;
+}
+
+#searchNote{
+    margin: 15px;
+    height: 30px;
+    width: 1400px;
+    border-radius: 10px;
+    border:1px solid gray;
+    padding: 10px;
+}
+
+#container{
+    border: 1px solid black;
+    margin: 20px;
+    height:180px;
+    border-radius: 10px;
+    width: 1000px;
+    background-color: rgb(158, 149, 149);
+    padding: 10px;
+}
+
+#sub-cont-1{
+    /* border: 1px solid black; */
+    height: 25px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+#sub-cont-2{
+    height: 25px;
+    color: black;
+}
+#sub-cont-3{
+    height: 25px;
+    color: black;
+}

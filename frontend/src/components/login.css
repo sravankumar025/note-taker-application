@@ -1,0 +1,36 @@
+#main-container{
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    background-color: aqua;
+}
+
+#signin-container{
+    height: 470px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px;
+    position: absolute;
+    top: 100px;
+    left:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="email"],input[type="password"]{
+    height: 35px;
+    width: 300px;
+    margin:5px
+}
+
+#submit{
+    cursor: pointer;
+    height: 85px;
+    width: 300px;
+    background-color: rgb(2, 2, 193);
+    color: white;
+    font-size: large;
+    margin-top: 10px;
+}
